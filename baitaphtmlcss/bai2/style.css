@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    background-color: #111827; 
+    padding: 15px 15px; 
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex; 
+    list-style: none; 
+    gap: 20px; 
+}
+
+.menu li {
+    cursor: pointer; 
+}
+
+button {
+    background-color: #3b82f6; 
+    color: #ffffff; 
+    border:none;
+    padding: 10px 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bold;
+}
